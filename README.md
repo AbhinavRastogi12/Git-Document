@@ -153,7 +153,7 @@ For more info you can visit "https://git-scm.com/book/en/v2/Git-Basics-Git-Alias
 -> git branch                       //to check branches
 -> git checkout -b newbranchname    //to create new branch 
 -> git merge newbranchname          //to give merge request
--> git branch -d branc              //to delete branch
+-> git branch -d branchname         //to delete branch
 
 In Git, branches are a part of your everyday development process, 
 when you create your own branch you can do work without effecting existing master/main branch.
