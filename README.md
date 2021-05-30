@@ -67,17 +67,27 @@ pros-> secure backup
 
 -> git clone                                                                   //to create clone of git repository
 
--> git diff                                                                    //to compare working directory with staging area
+-> git diff                                                                    //to compare working directory with staging 
+                                                                                 area
 
 -> git diff --staged                                                           //to compare last commit with staging area
 
--> git commit -a -m "Direct commit"                                            //to skip staging area(note:- this command commit's only tracked files, untracked files cannot be commited through this command)
+-> git commit -a -m "Direct commit"                                            //to skip staging area(note:- this command 
+                                                                                 commit's only tracked files, 
+                                                                                 untracked files cannot be commited through 
+                                                                                 this command)
 
--> git clone url.git foldername                                                //to clone git repository into folder(note:- when you mention foldername after url.git, the repository will clone into that folder) 
+-> git clone url.git foldername                                                //to clone git repository into folder
+                                                                                 (note:- when you mention foldername after  
+                                                                                 url.git, the repository will clone into  
+                                                                                 that folder) 
 
 -> git log --pretty=short                                                      //to check the author of directory
 
--> git log --pretty=full                                                       //to check the author and commiter of directory(note:- author is one who create first file, and commiter is who change or add new the files)
+-> git log --pretty=full                                                       //to check the author and commiter of   
+                                                                                 directory(note:- author is one who  
+                                                                                 create first file, and commiter is who  
+                                                                                 change or add new the files)
 
 -> git restore --staged filename.extention                                     //to unstage file
 
@@ -94,7 +104,8 @@ pros-> secure backup
 
 <strong>Git Ignore(.gitignore)</strong>
 
-Git ignore(.gitignore) is use to ignore the files, when you put files in ".gitignore" folder, you won't be able to track those files.
+Git ignore(.gitignore) is use to ignore the files, when you put files in ".gitignore" folder,  
+you won't be able to track those files.
 
 
 Linux Commands
@@ -124,7 +135,8 @@ Linux Commands
 
 -> eval `ssh-agent -s`                                         //to generate agent pid
 
-For more info about ssh key visit "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"      
+For more info about ssh key visit "https://docs.github.com/en/github/authenticating-to-github/ 
+connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"      
 
 <strong>Alias in git</strong>
 
@@ -143,5 +155,6 @@ For more info you can visit "https://git-scm.com/book/en/v2/Git-Basics-Git-Alias
 -> git merge newbranchname          //to give merge request
 -> git branch -d branc              //to delete branch
 
-In Git, branches are a part of your everyday development process, when you create your own branch you can do work without effecting existing master/main branch.
+In Git, branches are a part of your everyday development process, 
+when you create your own branch you can do work without effecting existing master/main branch.
 </pre>
