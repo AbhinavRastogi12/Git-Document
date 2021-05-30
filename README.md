@@ -86,7 +86,7 @@ pros-> secure backup
 
 -> git log --pretty=full                                                       //to check the author and commiter of   
                                                                                  directory(note:- author is one who  
-                                                                                 create first file, and commiter one is who  
+                                                                                 create first file, and commiter is one who  
                                                                                  change or add new the files)
 
 -> git restore --staged filename.extention                                     //to unstage file
