@@ -108,7 +108,7 @@ Git ignore(.gitignore) is use to ignore the files, when you put files in ".gitig
 you won't be able to track those files.
 
 
-Linux Commands
+<strong>Linux Commands</strong>
 
 -> pwd                                           //to check present working directory
 
