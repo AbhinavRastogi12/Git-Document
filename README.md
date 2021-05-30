@@ -1,11 +1,11 @@
 # Git-Document
 
 <pre>
-**What is git?**
+<strong>What is git?</strong>
 
 It is a distributed version control system, which track files.
 
-**why we use git?**
+<strong>why we use git?</strong>
 
 Easily recover files,
 
@@ -13,7 +13,7 @@ who introduce an issue and when,
 
 Roll back to previously working state.
 
-**History**
+<strong>History</strong>
 
 -> Local vcs 
 
@@ -32,7 +32,7 @@ cons-> if server damage you can't rollback
 pros-> secure backup
 
 
-**Three Stage Architecture**
+<strong>Three Stage Architecture</strong>
 
 -> working directory
 
@@ -41,7 +41,7 @@ pros-> secure backup
 -> git directory(repository)
 
 
-**Basic Commands**
+<strong>Basic Commands</strong>
 
 -> git config --global user.name "username"                                    //to configure username
 
@@ -92,7 +92,7 @@ pros-> secure backup
 -> git push -u origin master(branch name)                                      //to push directory to repository
 
 
-**Git Ignore(.gitignore)**
+<strong>Git Ignore(.gitignore)</strong>
 
 Git ignore(.gitignore) is use to ignore the files, when you put files in ".gitignore" folder, you won't be able to track those files.
 
@@ -118,7 +118,7 @@ Linux Commands
 -> touch filename.extention                      //to create file
 
 
-**SSH key**
+<strong>SSH key</strong>
 
 -> ssh-keygen -t rsa -b 4096 -C "your_email@example.com"       //to generate ssh key
 
@@ -126,7 +126,7 @@ Linux Commands
 
 For more info about ssh key visit "https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"      
 
-**Alias in git**
+<strong>Alias in git</strong>
 
 Alias in git is use to give alias name, with the help of alias you can create shortcut for commands
 
@@ -136,7 +136,7 @@ Example:-
 
 For more info you can visit "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases"
 
-**Branches/Merging in git**
+<strong>Branches/Merging in git</strong>
 
 -> git branch                       //to check branches
 -> git checkout -b newbranchname    //to create new branch 
