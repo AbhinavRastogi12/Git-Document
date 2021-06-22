@@ -120,7 +120,7 @@ you won't be able to track those files.
 
 -> cd                                            //to change directory 
 
--> git rm -rf .git                               //to remove entire repository(execute at your own risk)
+-> git rm -rf .git                               //to remove .git folder
 
 -> git rm filename.extension                     //to remove file
 
