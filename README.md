@@ -89,11 +89,11 @@ pros-> secure backup
                                                                                  create first file, and commiter is one who  
                                                                                  change or add new the files)
 
--> git restore --staged filename.extention                                     //to unstage file
+-> git restore --staged filename.extension                                     //to unstage file
 
 -> git checkout -f                                                             //to rollback whole directory into last commit
 
--> git checkout -- filename.extention                                          //to rollback into last commit
+-> git checkout -- filename.extension                                          //to rollback into last commit
 
 -> git remote -v                                                               //to check form where to pull or push 
 
@@ -122,11 +122,11 @@ you won't be able to track those files.
 
 -> git rm -rf .git                               //to remove entire repository(execute at your own risk)
 
--> git rm filename.extention                     //to remove file
+-> git rm filename.extension                     //to remove file
 
 -> git mv oldname newname                        //to rename the folder
 
--> touch filename.extention                      //to create file
+-> touch filename.extension                      //to create file
 
 
 <strong>SSH key</strong>
@@ -152,7 +152,7 @@ For more info you can visit "https://git-scm.com/book/en/v2/Git-Basics-Git-Alias
 
 -> git branch                       //to check branches
 -> git checkout -b newbranchname    //to create new branch 
--> git merge newbranchname          //to give merge request
+-> git merge newbranchname          //to merge branches
 -> git branch -d branchname         //to delete branch
 
 In Git, branches are a part of your everyday development process, 
