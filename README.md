@@ -114,7 +114,7 @@ you won't be able to track those files.
 
 -> ls                                            //to list content
 
--> dir                                           //to check the number of directories in folder
+-> dir                                           //to check the number of directories in folder(for windows only)
 
 -> mkdir file.extention                          //to create new directory                          
 
